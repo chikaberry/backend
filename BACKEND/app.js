@@ -11,8 +11,8 @@ const cors = require('cors');
 //accessing my .env
 require('dotenv/config');
 
-// const authjwt = require('./security/jwt');
-// const errorHandler = require('./security/error-handler');
+ const authjwt = require('./security/jwt');
+ const errorHandler = require('./security/error-handler');
 
 
 app.use(cors());
@@ -21,8 +21,8 @@ app.options('*', cors())
 //Middleware
 app.use(express.json());
 app.use(morgan('tiny'));
-// app.use(authjwt());
-// app.use(errorHandler);
+app.use(authjwt());
+app.use(errorHandler);
 app.use('/public/uploads', express.static(__dirname + 'public/uploads'));
 
  const api = process.env.API_URL;

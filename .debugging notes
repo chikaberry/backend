@@ -1,0 +1,33 @@
+test apis ------
+categorys
+products , can add products to category
+delete by id
+getting product by id or category, filter by id name or category
+can sort orders by date newest to oldest, order by id
+amount from the backend and can get total sales
+testing gallery-images/id number of product to add gallery images
+--------
+
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MmJmOGU1ZTNiZTI4MzFlZjExYmJiNzciLCJpYXQiOjE2NTY3Mjk1MjgsImV4cCI6
+MTY1NjgxNTkyOH0.VwQ012d0ysk-8zahc6no2B9fsYV5r9-colT8W6aAbC0
+
+
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MmJmOGU1ZTNiZTI4MzFlZjExYmJiNzciLCJpc0FkbWluIjp0cnVlLCJpYXQiOjE2NTY
+3MzA2MzAsImV4cCI6MTY1Nzk0MDIzMH0.nhIY7JzFvNionajSPTrwuDe7qJU2RdQSzFV7UvDAw7k
+
+
+
+ng  g component pages/dashboard --project=admin --dry-run 
+
+ng generate @nrwl/angular:library products
+
+section 11 needs to be revised
+
+
+
+cant get users
+cant post new users 
+cant 
+
+const authJwt = require('./helpers/jwt');
+ const errorHandler = require('./helpers/error-handler');
